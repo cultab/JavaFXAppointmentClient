@@ -6,4 +6,5 @@ module gr.uniwa.javafxappointmentclient {
     opens gr.uniwa.javafxappointmentclient to javafx.fxml;
     exports gr.uniwa.javafxappointmentclient;
 	requires java.xml.bind;
+	requires java.base;
 }
